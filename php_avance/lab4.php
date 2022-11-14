@@ -6,8 +6,11 @@
         private $prix;
         private $couleur;
 
+        // Attributs de classe
         private static $vitesseMax = 400;
         private static $nbV=0;
+        const listeMax=10;
+
 
         // constructeur
 
@@ -18,6 +21,10 @@
             $this->prix = $prix;
             $this->couleur = $couleur;
         }
+
+        public static function getListeMax(){
+            return self::listeMax;
+           }
 
         public static function getVitesseMax(){
             return self::$vitesseMax;
@@ -108,7 +115,7 @@
 
 <h2 align='center'>Total : <?php echo Voiture::getNbV()?></h2>
 
-<h3 align='center'>Vitesse Max: <?php echo Voiture::getVitesseMax()?></h3>
+<h3 align='center'><?php echo "Vitesse Max : " .Voiture::getVitesseMax()." Liste Maximum : ".Voiture::getListeMax()?></h3>
 
 <h2 align="center">Liste</h2>
 <table align="center" border="1">
