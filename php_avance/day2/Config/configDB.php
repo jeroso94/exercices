@@ -1,7 +1,7 @@
 <?php
     $serveur = "localhost";
     $username = "gkuser2";
-    $password = "";
+    $password = "...";
     
     $base = "gkphp2022";
 
