@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<voitures>
+    <voiture>
+        <marque>Porsche</marque>
+	    <modele>modele1</modele>
+        <immat>123-abc-44</immat>
+        <prix>15000</prix>
+    </voiture>
+
+    <voiture>
+        <marque>Audi</marque>
+	    <modele>modele2</modele>
+        <immat>123-abc-44</immat>
+        <prix>30000</prix>
+    </voiture>
+
+    <voiture>
+        <marque>Toyota</marque>
+	    <modele>modele3</modele>
+        <immat>123-abc-44</immat>
+        <prix>60000</prix>
+    </voiture>
+</voitures>

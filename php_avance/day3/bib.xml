@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<biblio>
+    <livre nbrjours="5" lieu="en ligne">
+        <titre>Perfectionnemnt PHP</titre>
+	    <auteur>Mohamed Amine M.</auteur>
+        <date>Novembre 2022</date>
+    </livre>
+
+    <livre nbrjours="5" lieu="presentiel">
+        <titre>HTML CSS JS</titre>
+	    <auteur>Mohamed Amine M.</auteur>
+        <date>Octobre 2022</date>
+    </livre>
+
+    <livre nbrjours="3" lieu="presentiel">
+        <titre>Symfony</titre>
+	    <auteur>Aymen S.</auteur>
+        <date>Novembre 2022</date>
+    </livre>
+	
+</biblio>
